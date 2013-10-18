@@ -73,7 +73,7 @@
                     <div class="main-menu">
                         <nav id="main-nav">
                             <ul>
-                                <li class="current"><a href="index.html">HOME</a></li>
+                                <li class="current"><a href="{% url "index" %}">HOME</a></li>
                                 <li><a href="{% url "noticias" %}">NOTÍCIAS</a></li>
                                 <li><a href="{% url "membros" %}">MEMBROS</a></li>
                                 <li class="sub"><a href>CADASTRAR</a>
